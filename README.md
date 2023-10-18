@@ -1,6 +1,6 @@
 # Informacion con PHP
 
-Se usa para tener informacion detallada del servidor y asi saber por ejemplo saber a que pod esta siendo enviado en OpenShift o Kubernetes.
+Se usa para tener informacion detallada del servidor y asi saber por ejemplo a que pod esta siendo enviado en OpenShift o Kubernetes.
 
 ## Con OpenShift y usando S2I
 
