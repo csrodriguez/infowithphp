@@ -35,3 +35,15 @@ Esto tambien puede ser muy util para ver como nos esta siendo redireccionado cua
 ```bash
 for i in $(seq 10); do curl direccion-que-nos-da-route -s | grep 'HOSTNAME '; done
 ```
+
+Esto mismo lo podemos mandar a un archivo para hacer otros analisis
+
+```bash
+for i in $(seq 10); do curl direccion-que-nos-da-route -s | grep 'HOSTNAME '; done > datos.txt
+```
+
+Y si queremos contar cuantas veces se repiten lineas en una lista, que en este caso lo tenenmos en datos, podemos ejecutar la siguiente instruccion:
+
+```bash
+ cat datos.txt | sort | uniq -c
+```
